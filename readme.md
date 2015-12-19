@@ -2,7 +2,8 @@
 
 > Generate text meme
 
-<img src="meme.gif" width="300">
+<img src="meme.gif" width="160">
+
 
 ## Install
 
@@ -16,26 +17,28 @@ $ npm install --global text-meme-cli
 ```
 $ text-meme --help
 
+  Usage
+    $ text-meme "Don't forget to be awesome"
+
   Options
-    --delay       frame delay [Default: 500]
-    --background  image's background color in hex [Default: #000000]
-    --fontcolor   font's color in hex [Default: #ffffff]
-    --filename    expected name of the file (without file extension) [Default: quote]
-    --fontsize    font's size [Default: 30]
+    --delay       Frame delay [Default: 500]
+    --background  Background color in hex [Default: #000000]
+    --fontcolor   Text color in hex [Default: #ffffff]
+    --filename    Filename without extension [Default: meme-123]
+    --fontsize    Text size [Default: 30]
 
   Examples
-    $ text-meme "It always seems impossible until it's done."
-    generated text-meme > filename.gif
-    
-    $ text-meme-cli "It always seems impossible until it's done. --filename=quote --background=#ef8321"
-    generated text-meme > quote.gif
+    $ text-meme "Don't forget to be awesome"
+    generated text-meme → meme-326.gif
+    $ text-meme "Don't forget to be awesome --filename=quote --backgrund=#4f656d"
+    generated text-meme → quote.gif
 ```
 
 
 ### Related
 
-- [text-meme](https://github.com/beatfreaker/text-meme/) - Api of this module
-- [slate](https://github.com/bitshadow/slate) - Inspire from this module
+- [text-meme](https://github.com/beatfreaker/text-meme) - API for this module
+- [slate](https://github.com/bitshadow/slate) - Inspiration for this module
 
 
 ## License
