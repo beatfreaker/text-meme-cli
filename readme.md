@@ -30,7 +30,7 @@ $ text-meme --help
   Examples
     $ text-meme "Don't forget to be awesome"
     generated text-meme → meme-326.gif
-    $ text-meme "Don't forget to be awesome --filename=quote --backgrund=#4f656d"
+    $ text-meme "Don't forget to be awesome" --filename=quote --background=#4f656d
     generated text-meme → quote.gif
 ```
 
