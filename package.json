@@ -1,0 +1,44 @@
+{
+  "name": "text-meme-cli",
+  "version": "1.0.0",
+  "description": "Generate text meme",
+  "license": "MIT",
+  "repository": "beatfreaker/text-meme-cli",
+  "author": {
+    "name": "beatfreaker",
+    "email": "radiachints1512@gmail.com",
+    "url": "beatfreaker.github.io"
+  },
+  "bin": {
+    "text-meme":  "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "meme",
+    "text meme",
+    "utility"
+  ],
+  "dependencies": {
+    "meow": "^3.6.0",
+    "text-meme": "^1.0.0"
+  },
+  "devDependencies": {
+    "xo": "^0.11.2"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
