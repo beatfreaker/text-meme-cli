@@ -21,7 +21,7 @@ $ text-meme --help
     $ text-meme "Don't forget to be awesome"
 
   Options
-    --delay       Frame delay [Default: 600]
+    --delay       Frame delay [Default: 500]
     --background  Background color in hex [Default: #000000]
     --fontcolor   Text color in hex [Default: #ffffff]
     --filename    Filename without extension [Default: meme-123]
