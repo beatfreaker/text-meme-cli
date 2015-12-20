@@ -41,6 +41,11 @@ $ text-meme --help
 - [slate](https://github.com/bitshadow/slate) - Inspiration for this module
 
 
+#### Note
+
+This module uses [canvas](https://www.npmjs.com/package/canvas) module as dependency which requires `Cairo` check [here](https://www.npmjs.com/package/canvas#installation) how to install it.
+
+
 ## License
 
 MIT © [beatfreaker](https://beatfreaker.github.io)
