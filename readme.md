@@ -2,7 +2,7 @@
 
 > Generate text meme
 
-<img src="meme.gif" width="160">
+<img src="meme.gif" width="300">
 
 
 ## Install
@@ -21,11 +21,11 @@ $ text-meme --help
     $ text-meme "Don't forget to be awesome"
 
   Options
-    --delay       Frame delay [Default: 500]
+    --delay       Frame delay [Default: 600]
     --background  Background color in hex [Default: #000000]
     --fontcolor   Text color in hex [Default: #ffffff]
     --filename    Filename without extension [Default: meme-123]
-    --fontsize    Text size [Default: 30]
+    --fontsize    Text size [Default: 50]
 
   Examples
     $ text-meme "Don't forget to be awesome"
