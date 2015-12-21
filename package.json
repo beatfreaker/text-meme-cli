@@ -1,6 +1,6 @@
 {
   "name": "text-meme-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate text meme",
   "license": "MIT",
   "repository": "beatfreaker/text-meme-cli",
