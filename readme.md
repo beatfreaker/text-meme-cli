@@ -26,11 +26,12 @@ $ text-meme --help
     --fontcolor   Text color in hex [Default: #ffffff]
     --filename    Filename without extension [Default: meme-123]
     --fontsize    Text size [Default: 50]
+    --imagesize   Image size in px [Default: 600]
 
   Examples
     $ text-meme "Don't forget to be awesome"
     generated text-meme → meme-326.gif
-    $ text-meme "Don't forget to be awesome" --filename=quote --background=#4f656d
+    $ text-meme "Don't forget to be awesome" --filename=quote --background=#4f656d --imagesize=500
     generated text-meme → quote.gif
 ```
 
