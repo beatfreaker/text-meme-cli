@@ -26,6 +26,4 @@ if (cli.input.length === 0) {
 	process.exit(1);
 }
 
-textMeme(cli.input[0], cli.flags).then(function (filename) {
-	console.log('generated text-meme → ' + filename);
-});
+console.log('generated text-meme → ' + textMeme(cli.input[0], cli.flags));
